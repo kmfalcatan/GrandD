@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(17, 16, 16);
+}
+
+.headerContainer{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoContainer{
+    height: 100%;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subLogoContainer{
+    height: 100%;
+    width: 5rem;
+    margin-left: 1rem;
+}
+
+.logoImg{
+    height: 100%;
+}
+
+.projectNameContainer{
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+
+
+.menuBarContainer{
+    height: 100%;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.homeContainer{
+    height: 100%;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeButton{
+    height: 3.5rem;
+    width: 8rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.homeButton:hover{
+    background-color: rgb(221, 221, 221);
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.homeButton:active{
+    transform: scale(0.9);
+}
+
+.bodyContainer{
+    height: 92.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subBodyContainer{
+    height: 90%;
+    width: 90%;
+    border-radius: 2rem;
+    background: linear-gradient(to right, rgb(80, 22, 22), rgb(43, 3, 3));
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.infoContainer1, .infoContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hashTagContainer{
+    height: 2rem;
+    width: 100%;
+}
+
+.subHashTagContainer{
+    height: 100%;
+    width: 10rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 3rem;
+    background-color: rgb(248, 88, 88);
+}
+
+.titleContainer{
+    height: 10rem;
+    width: 100%;
+}
+
+.subTitleContainer{
+    height: 100%;
+    width: 47.7rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 4rem;
+    width: 33rem;
+    font-weight: bold;
+}
+
+.descriptionContainer{
+    height: 15rem;
+    width: 100%;
+}
+
+.subDescriptionContainer{
+    height: 100%;
+    width: 47.7;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+.description{
+    width: 35rem;
+}
+
+.buttonContainer{
+    height: 3rem;
+    width: 100%;
+}
+
+.subButtonContainer{
+    margin-left: 3rem;
+    height: 100%;
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    background-color: rgb(238, 229, 229);
+}
+
+.subButtonContainer:hover{
+    transform: scale(1.1);
+}
+
+.subButtonContainer:active{
+    transform: scale(1);
+}
+
+.textContainer{
+    height: 100%;
+    width: 8rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowContainer{
+    height: 100%;
+    width: 3rem;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subArrowContainer{
+    height: 90%;
+    width: 90%;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 16, 16);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.arrow{
+    height: 2rem;
+}
+
+.imageContainer{
+    height: 100%;
+    width: 100%;
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subImageContainer{
+    height: 100%;
+    width: 100%;
+    margin: 4rem;
+    border-radius: 24% 76% 37% 63% / 71% 43% 57% 29%;
+    background-color: white;
+    background: url(/GrandD/assets/img/JEMSC.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes popup {
+    from{
+        transform: scale(0.8);
+    } to{
+        transform: scale(1);
+    }
+}
