@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(../img/image.png) center/cover no-repeat;
+    font-family: "Roboto", sans-serif;
+}
+
+.container1{
+    height: 100vh;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0.068));
+}
+
+.bodyContainer1{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.feedbackContainer{
+    height: 90%;
+    width: 35rem;
+    margin-left: 5%;
+    border-radius: 2rem;
+    background-color: snow;
+}
+
+.subFeedbackContainer{
+    height: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(165, 3, 3);
+}
+
+.nameInputContainer{
+    height: 4rem;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameInput{
+    height: 4rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+.descriptionContainer1{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.description1{
+    height: 14rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 0 0 0.5rem;
+    background-color: rgb(211, 211, 211);
+    border: none;
+}
+
+.buttonContainer1{
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitButton{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(165, 3, 3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.submitButton:hover{
+    background-color: transparent;
+    border: solid rgb(165, 3, 3) 1px;
+    color: rgb(165, 3, 3);
+}
+
+.submitButton:active{
+    transform: scale(0.9);
+    background-color: transparent;
+    border: solid rgb(165, 3, 3) 1px;
+    color: rgb(165, 3, 3);
+}

@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.container1{
+    height: 100vh;
+    background-color: rgb(17, 16, 16);
+}
+
+.bodyContainer1{
+    height: 92vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.subBodyContainer1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputContactContainer{
+    height:28rem;
+    width: 100%;
+}
+
+.nameContainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.nameInput{
+    height: 100%;
+    width: 90%;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.nameContainer1{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.nameInput1{
+    height: 100%;
+    width: 44%;
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.descriptionContainer{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionInput{
+    height: 97%;
+    width: 90%;
+    padding: 0.5rem 0 0 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.contactTextContainer{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: snow;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+span{
+    color: rgb(255, 38, 0);
+}
+
+.descriptionTextContainer{
+    height: 8rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: snow;
+    font-size: 2rem;
+}
+
+.contactContainer{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.numberContainer{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.iconContainer{
+    height: 100%;
+    width: 4.5rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(255, 38, 0), rgb(250, 121, 0));
+}
+
+.image1{
+    height: 2.5rem;
+    border-radius: 5rem;
+}
+
+.contactNumberContainer{
+    height: 100%;
+    width: 40rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: snow;
+}
+
+.buttonContainer1{
+    height: 3rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.submitButton{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(165, 3, 3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-left: 2.5rem;
+}
+
+.submitButton:hover{
+    background-color: transparent;
+    border: solid snow 1px;
+    color: snow;
+}
+
+.submitButton:active{
+    transform: scale(0.9);
+    background-color: transparent;
+    border: solid snow 1px;
+    color: snow;
+}
