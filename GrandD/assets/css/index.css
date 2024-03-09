@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+  font-family: "Roboto", sans-serif;
+}
+
 .container{
     height: 100vh;
     background-color: rgb(17, 16, 16);
