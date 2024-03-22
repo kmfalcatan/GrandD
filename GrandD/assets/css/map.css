@@ -1,0 +1,29 @@
+
+.subBodyContainer1{
+  height: 90%;
+  width: 90%;
+  border-radius: 1rem;
+  background: linear-gradient(to right, rgb(80, 22, 22), rgb(43, 3, 3));
+  display: grid;
+  grid-template-columns: 1fr;
+  background:  url(../img/grandstand.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.searchBarContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar{
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+}
