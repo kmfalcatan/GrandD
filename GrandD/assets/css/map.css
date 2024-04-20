@@ -1,15 +1,18 @@
+.container1{
+  background-color: rgb(17, 16, 16);
+}
+
+.bodyContainer{
+  position: relative;
+}
 
 .subBodyContainer1{
-  height: 90%;
-  width: 90%;
   border-radius: 1rem;
   background: linear-gradient(to right, rgb(80, 22, 22), rgb(43, 3, 3));
   display: grid;
   grid-template-columns: 1fr;
-  background:  url(../img/grandstand.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  width: 80rem;
 }
 
 .searchBarContainer{
@@ -18,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .searchBar{
@@ -26,4 +30,264 @@
   border-radius: 0.5rem;
   font-size: 1.2rem;
   padding-left: 0.5rem;
+}
+
+.map{
+  height: 50rem;
+  width: 80rem;
+}
+
+.pinContainer{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 9rem;
+  left: 12.6rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer6{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 25.6rem;
+  left: 12.6rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer7{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 14.3rem;
+  left: 44.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer8{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 14.3rem;
+  left: 3.2rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer9{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 39.3rem;
+  left: 3.2rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer10{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 43.3rem;
+  left: 44.6rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer11{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 43.3rem;
+  left: 44.6rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer12{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 34rem;
+  left: 44.7rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer13{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 34rem;
+  left: 31rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.pinContainer14{
+  outline: black dashed 1px;
+  position: absolute;
+  top: 34rem;
+  left: 58.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.infoContainer5, .infoContainer6, .infoContainer7, .infoContainer8, .infoContainer9, .infoContainer13{
+    outline: red dashed 1px;
+    width: 15rem;
+    position: absolute;
+    right: -6rem;
+    border-radius: 1rem;
+    background-color: rgb(17, 16, 16);
+    margin-top: 0.5rem;
+    border: solid rgb(167,0,0) 1px;
+}
+
+.infoContainer9, .infoContainer10, .infoContainer11, .infoContainer12
+, .infoContainer13, .infoContainer14{
+    outline: red dashed 1px;
+    width: 15rem;
+    position: absolute;
+    right: -6rem;
+    top: -17rem;
+    border-radius: 1rem;
+    background-color: rgb(17, 16, 16);
+    margin-top: 0.5rem;
+    border: solid rgb(167,0,0) 1px;
+}
+
+.pin{
+    height: 2rem;
+}
+
+.subPinContainer{
+    outline: red dashed 1px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.subPinContainer img:hover{
+    filter: invert(100%);
+}
+
+.subPinContainer:hover{
+    background-color: rgb(17, 16, 16);
+}
+
+.subPinContainer:active{
+    transform: scale(0.9);
+}
+
+.image1{
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.subInfoContainer{
+    outline: white dashed 1px;
+    height: 10rem;
+}
+
+.collegeContainer{
+    outline: white dashed 1px;
+    display: flex;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.locationIcon{
+  height: 2.5rem;
+  background-color: snow;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.trackContainer{
+  outline: red dashed 1px;
+  width: 20rem;
+  position: absolute;
+  z-index: 1;
+  right: -9rem;
+  top: 3rem;
+  background-color: snow;
+  border-radius: 0.5rem;
+}
+
+.trackContainer1{
+  outline: red dashed 1px;
+  width: 20rem;
+  background-color: snow;
+  border-radius: 0.5rem;
+}
+
+.inputContainer{
+  outline: red dashed 1px;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input{
+  height: 3rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: none;
+  background-color: rgb(17, 16, 16);
+  color: snow;
+  font-size: 1.2rem;
+}
+
+.buttonContainer{
+  outline: red dashed 1px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.ButtonStart{
+  height: 2.5rem;
+  width: 6rem;
+  background-color: rgb(17, 16, 16);
+  border-radius: 0.5rem;
+  color: snow;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.ButtonStart:hover{
+  background-color: snow;
+  border: solid rgb(17, 16, 16) 1px;
+  color: rgb(17, 16, 16);
+}
+
+.ButtonStart:active{
+  transform: scale(0.9);
+}
+
+.modalContainer{
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.425);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image2{
+  height: 4rem;
 }

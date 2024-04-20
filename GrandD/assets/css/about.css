@@ -1,0 +1,10 @@
+.about{
+    color: snow;
+    font-size: 3rem;
+    color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
