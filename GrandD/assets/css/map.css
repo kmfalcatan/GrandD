@@ -38,7 +38,6 @@
 }
 
 .pinContainer{
-  outline: black dashed 1px;
   position: absolute;
   top: 9rem;
   left: 12.6rem;
@@ -47,7 +46,6 @@
 }
 
 .pinContainer6{
-  outline: black dashed 1px;
   position: absolute;
   top: 25.6rem;
   left: 12.6rem;
@@ -56,7 +54,6 @@
 }
 
 .pinContainer7{
-  outline: black dashed 1px;
   position: absolute;
   top: 14.3rem;
   left: 44.5rem;
@@ -65,7 +62,6 @@
 }
 
 .pinContainer8{
-  outline: black dashed 1px;
   position: absolute;
   top: 14.3rem;
   left: 3.2rem;
@@ -74,7 +70,6 @@
 }
 
 .pinContainer9{
-  outline: black dashed 1px;
   position: absolute;
   top: 39.3rem;
   left: 3.2rem;
@@ -83,7 +78,6 @@
 }
 
 .pinContainer10{
-  outline: black dashed 1px;
   position: absolute;
   top: 43.3rem;
   left: 44.6rem;
@@ -92,7 +86,6 @@
 }
 
 .pinContainer11{
-  outline: black dashed 1px;
   position: absolute;
   top: 43.3rem;
   left: 44.6rem;
@@ -101,7 +94,6 @@
 }
 
 .pinContainer12{
-  outline: black dashed 1px;
   position: absolute;
   top: 34rem;
   left: 44.7rem;
@@ -110,7 +102,6 @@
 }
 
 .pinContainer13{
-  outline: black dashed 1px;
   position: absolute;
   top: 34rem;
   left: 31rem;
@@ -119,7 +110,6 @@
 }
 
 .pinContainer14{
-  outline: black dashed 1px;
   position: absolute;
   top: 34rem;
   left: 58.5rem;
@@ -128,7 +118,7 @@
 }
 
 .infoContainer5, .infoContainer6, .infoContainer7, .infoContainer8, .infoContainer9, .infoContainer13{
-    outline: red dashed 1px;
+    
     width: 15rem;
     position: absolute;
     right: -6rem;
@@ -140,7 +130,7 @@
 
 .infoContainer9, .infoContainer10, .infoContainer11, .infoContainer12
 , .infoContainer13, .infoContainer14{
-    outline: red dashed 1px;
+    
     width: 15rem;
     position: absolute;
     right: -6rem;
@@ -156,7 +146,7 @@
 }
 
 .subPinContainer{
-    outline: red dashed 1px;
+    
     height: 100%;
     width: 100%;
     border-radius: 5rem;
@@ -186,12 +176,10 @@
 }
 
 .subInfoContainer{
-    outline: white dashed 1px;
     height: 10rem;
 }
 
 .collegeContainer{
-    outline: white dashed 1px;
     display: flex;
     margin-top: 0.5rem;
     font-size: 1.2rem;
@@ -210,7 +198,6 @@
 }
 
 .trackContainer{
-  outline: red dashed 1px;
   width: 20rem;
   position: absolute;
   z-index: 1;
@@ -221,14 +208,12 @@
 }
 
 .trackContainer1{
-  outline: red dashed 1px;
   width: 20rem;
   background-color: snow;
   border-radius: 0.5rem;
 }
 
 .inputContainer{
-  outline: red dashed 1px;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -248,7 +233,6 @@
 }
 
 .buttonContainer{
-  outline: red dashed 1px;
   height: 3rem;
   display: flex;
   align-items: center;
