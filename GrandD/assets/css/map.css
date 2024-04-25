@@ -153,9 +153,9 @@
 
 .infoContainer231{
   outline: red dashed 1px;
-    width: 57rem;
+    width: 44.5rem;
     position: absolute;
-    right: -27rem;
+    right: -21rem;
     top: -14rem;
     border-radius: 1rem;
     background-color: rgb(17, 16, 16);
@@ -194,6 +194,12 @@
 .image1{
   height: 100%;
   width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.image10{
+  height: 100%;
+  width: 14.5rem;
   border-radius: 1rem 1rem 0 0;
 }
 
