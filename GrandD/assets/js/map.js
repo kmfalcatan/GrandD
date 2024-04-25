@@ -61,7 +61,7 @@ function popUp6(){
 }
 
 function popUp7(){
-    var popUp = document.querySelector('.infoContainer11');
+    var popUp = document.querySelector('.infoContainer231');
 
     if(popUp.style.display === 'none'){
         popUp.style.display = 'block';
