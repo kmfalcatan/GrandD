@@ -312,3 +312,20 @@
 .image2{
   height: 4rem;
 }
+
+.compassContainer{
+  outline: white dashed 1px;
+  height: 100%;
+  width: 14.5rem;
+  position: absolute;
+  right: -14.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.compass{
+  height: 13rem;
+  margin-top: 1rem;
+  filter: invert(100%);
+  transform: rotate(-60deg);
+}
