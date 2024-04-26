@@ -326,6 +326,6 @@
 .compass{
   height: 13rem;
   margin-top: 1rem;
-  filter: invert(100%);
+  filter: invert(50%);
   transform: rotate(-60deg);
 }
